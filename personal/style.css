@@ -1,0 +1,69 @@
+body {
+	background-image: url('background_head.jpg');
+	background-size: cover;
+	background-color: #FFFFCC;	
+}
+#main {
+	display: -webkit-flex;
+}
+#main div {
+	-webkit-justify-content: space-between;
+	-webkit-flex: 1;
+	-webkit-justify-content: center;
+	-webkit-align-self: stretch;
+}
+
+@media screen and (max-width: 600px) {
+	#main {
+		-webkit-flex-direction: column;
+	}
+}
+div p {
+	background-image: url('http://m.rgbimg.com/cache1uwStY/users/s/se/seevee/600/o4qiKzG.jpg');
+	background-color: tan;
+	padding: 20px;
+	border-width: medium;
+	border-style: solid;
+	border-color: lightyellow;
+	border-radius: 10px;
+	text-align: center;
+}
+#center_col {
+	text-align: center;		
+	font-family: 'pacifico', sans;
+}
+p a {
+	text-decoration: none;
+	color: black;
+	font-size: 35px;
+	font-family: 'Indie Flower', serif;
+	font-weight: bold;
+	text-align: center;
+}
+a:hover {
+	-webkit-opacity: 0.5;
+}
+p {
+	color: black;
+	font-size: 35px;
+	font-family: 'Indie Flower', serif;
+	font-weight: bold;
+	text-align: center;
+}
+.social {
+	background-color: white;
+	border-radius: 13px;
+}
+.photo_main {
+	max-width: 90%;
+	max-height: 800px;
+	border-width: medium;
+	border-style: solid;
+	border-color: lightyellow;
+	border-radius: 10px;
+}
+.side_image {
+	max-width: 80%;
+	border-style: solid;
+	border-color: tan;
+	border-radius: 10px;
